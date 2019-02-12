@@ -179,7 +179,9 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 .social-list__item {
   display: block;
   margin: 0 0 10px;
-  list-style: none
+  list-style: none;
+  width: 61px;
+  height: 61px;
 }
 
 @media screen and (min-width:768px) {
@@ -820,13 +822,14 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   flex: 1 1 100%;
   margin-bottom: .5em;
   letter-spacing: -1px;
-  font-size: 3rem;
-  font-weight: 400
+  font-size: 3.5rem;
+  font-weight: 400;
+
 }
 
 @media screen and (min-width:768px) {
   .secondary-header {
-    font-size: 3.8rem
+    font-size: 3.5rem;
   }
 }
 
@@ -994,7 +997,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -1012,3 +1015,4 @@ p {
 .inline-image {
   border: none;
 }
+
