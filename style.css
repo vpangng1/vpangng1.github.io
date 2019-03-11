@@ -1,0 +1,75 @@
+/*Placeholder Stylesheet*/
+
+
+/* Flex styling for vertical centering*/
+
+.flexbox-container {
+  display: flex;
+  align-items: center;
+
+  min-height: 100%; /* backup for browsers that don't support vh */
+  min-height: 100vh;
+  min-width: 330px;
+}
+
+/* Sectional Style */
+div.hero {
+  max-width: 400px;
+  float: none;
+  margin: 0 auto;
+}
+
+img.circle-img {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+img.circle-img:hover, #home-btn:hover {
+  cursor: pointer;
+}
+/* Layout */
+
+h4 {
+  margin-bottom: 40px;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  word-spacing: -2px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/* Font and Color */
+
+h4, h3, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a.button1{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid black;
+  margin:1em 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:black;
+  text-align:center;
+  transition: all 0.2s;
+}
+a.button1:hover{
+  color:white;
+  background-color:black;
+}
+@media all and (max-width:30em){
+  a.button1{
+    display:block;
+    margin:0.4em auto;
+  }
+}
