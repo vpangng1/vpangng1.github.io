@@ -1,137 +1,43 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
+<!doctype html>
+<html>
 <head>
-  <title>Victor Ng | Developer and Designer</title>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="MobileOptimized" content="320">
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Victor Ng &middot; Web Development</title>
+
+  <!-- Libraries -->
+  <link rel="Stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="animate.css/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Fonts  -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom CSS -->
+  <link rel="Stylesheet" href="style.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-
-<body class="main">
-  <nav class="nav">
-    <div class="container container--vertically-center">
-      <div class="nav__brand"><a href="http://vpng.design"><img src="images/Personal-Logo.png"></a></div>
-      <ul
-        class="nav__list">
-        <li class="nav__list-item"><a data-scroll href="#work">Work</a></li>
-        <li class="nav__list-item"><a data-scroll href="#contact">Contact</a></li>
-        </ul>
+<body>
+  <div class="container-fluid flexbox-container">
+    <div class="row col-xs-12 hero text-center">
+      <h4 class="text-center" id="home-btn">Victor Ng</h4>
+      <img src="profile-pic.png" class="circle-img center-block" id="hero-photo">
+      <h3 class="text-center"><p>I am a designer & developer seeking opportunities in UX.</h3>
+      <p>
+        I am currently revamping my website, but you can <a href="mailto: vpangng@gmail.com">email</a> me if you are interested in doing a project together.
+      </p>
+      <p>
+        Click the link below to view my resume.
+      </p>
+      <a href="victorn_designer.pdf" class="button1" download><i class="fa fa-download"></i> Download</a>
     </div>
-  </nav>
-  <section class="hero">
-    <div class="container">
-      <h1 class="hero__title">I’m Victor Ng, an aspiring <a class="hero__Link hero__link--second"> designer</a> and <a class="hero__link"> developer</a> from Seattle, currently working for The World is Fun.
-    </div>
-
-<!--<div class="container">
-  <h2 class="secondary-header">Skills</h2>
-</div>
-<div class="section group">
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-code fa-3x icon-a"></i>
-    <h3>Web Development</h3>
-    <p>I code websites using HTML, CSS, Javascript, and Vue.js.</p>
   </div>
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-desktop fa-3x icon-a"></i>
-    <h3>Web Design</h3>
-    <p class="text-muted">I leverage design principles to build modern and professional looking websites.</p>
-  </div>
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-chalkboard-teacher fa-3x icon-a"></i>
-    <h3>UX/UI Design</h3>
-    <p class="text-muted">I am interested in understanding the user experience and creating user interfaces.</p>
-  </div>
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-pen fa-3x icon-a"></i>
-    <h3>Graphic Design</h3>
-    <p class="text-muted">I create illustrations with emphasis on branding and identity design.</p>
-  </div>
-</div>-->
-
-  <section id="work" class="work">
-    <div class="container">
-      <h2 class="secondary-header">Project Highlights</h2>
-    </div>
-    <div class="featured-work-container">
-      <!--<a href="basketball-manual.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content7.PNG">
-          <div class="work-link-content">
-            <h3 class="link-content__header">Basketball Manual</h3>
-          </div>
-        </div>
-      </a>-->
-      <a href="app-interface.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content6.PNG">
-          <div class="work-link-content">
-            <h3 class="link-content__header">Photo & Video App</h3>
-          </div>
-        </div>
-      </a>
-      <a href="travel-app.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content5.PNG">
-          <div class="work-link-content">
-            <h3 class="link-content__header">Travel App</h3>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="container">
-      <h2 class="secondary-header">Work Experience</h2>
-    </div>
-    <div class="work-container">
-      <ul class="work__list">
-        <li class="work__list-item">
-          <a target="_blank" class="work__list-item-link" href="https://www.theworldisfun.org/">
-            <h2 class="work-title">The World is Fun</h2><span class="work-detail work-role">Design </span><span class="work-detail work-company">The World is Fun </span><span class="work-detail work-date">2018</span></a>
-        </li>
-        <li class="work__list-item">
-          <a target="_blank" class="work__list-item-link" href="https://ncs.seattleu.edu/programs-courses/web-development/">
-            <h2 class="work-title">Web Development Certificate</h2><span class="work-detail work-role">Development </span><span class="work-detail work-company">Seattle University </span><span class="work-detail work-date">2017</span></a>
-        </li>
-        <li class="work__list-item">
-          <a target="_blank" class="work__list-item-link" href="https://www.umass.edu/bdic/">
-            <h2 class="work-title">Bachelor's Degree: Information and Design</h2><span class="work-detail work-role">Development, Design </span><span class="work-detail work-company">UMass Amherst </span><span class="work-detail work-date">2014</span></a>
-        </li>
-        <li class="work__list-item">
-          <a target="_blank" class="work__list-item-link" href="http://www.umass.edu/pwtc/">
-            <h2 class="work-title">PWTC Certificate</h2><span class="work-detail work-role">Development, Design</span><span class="work-detail work-company">UMass Amherst </span><span class="work-detail work-date">2014</span></a>
-        </li>
-        <li class="work__list-item">
-          <a target="_blank" class="work__list-item-link" href="https://www.umass.edu/itprogram/">
-            <h2 class="work-title">Information Technology Capstone</h2><span class="work-detail work-role">Design </span><span class="work-detail work-company">UMass Amherst </span><span class="work-detail work-date">2012</span></a>
-      </ul>
-    </div>
-  </section>
-
-  <footer id="contact" class="footer">
-    <div class="container">
-      <h2 class="secondary-header">Interested in doing business?</h2><a class="hero__link" href="mailto: vpangng@gmail.com">Click here.</a></div>
-    <div class="container">
-      <ul class="social-list">
-        <li class="social-list__item"><a href="https://github.com/vpangng1"><img src="images/icon_github.png"></a></li>
-        <li class="social-list__item"><a href="#"><img src="images/icon_linkedin.png"></a></li>
-        <li class="social-list__item"><a href="#"><img src="images/icon_instagram.png"></a></li>
-        <li class="social-list__item"><a href="mailto: vpangng@gmail.com"><img src="images/icon_mail.png"></a></li>
-      </ul>
-    </div>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="bundle.js"></script>
-  <script>smoothScroll.init();</script>
-
 </body>
-
 </html>
