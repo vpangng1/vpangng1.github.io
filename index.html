@@ -10,80 +10,66 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <!-- <link rel="stylesheet" href="css/content.css">-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
+<div class="navigation">
+    <nav>
+      <div class="left">
+        <a href="index.html">
+          Victor Ng<span class="nomobile"> | Product Designer</span>
+        </a>
+      </div>
+      <div class="right">
+        <a href="index.html#project-links">portfolio</a>
+        <a href="about.html">about</a>
+      </div>
+    </nav>
+  </div>
+
 <body class="main">
-  <nav class="nav">
-    <div class="container container--vertically-center">
-      <div class="nav__brand"><a href="http://vpng.design"><img src="images/Personal-Logo.png"></a></div>
-      <ul
-        class="nav__list">
-        <li class="nav__list-item"><a data-scroll href="#work">Work</a></li>
-        <li class="nav__list-item"><a data-scroll href="#contact">Contact</a></li>
-        </ul>
-    </div>
-  </nav>
   <section class="hero">
     <div class="container">
-      <h1 class="hero__title">I’m Victor Ng, an aspiring <a class="hero__Link hero__link--second"> designer</a> and <a class="hero__link"> developer</a> from Seattle, currently working for The World is Fun.
+      <h1 class="hero__title">I’m Victor Ng, a <a class="hero__Link hero__link--second">product designer</a> from Seattle, currently a student at General Assembly.</h1>
     </div>
+  </section>
 
-<!--<div class="container">
-  <h2 class="secondary-header">Skills</h2>
-</div>
-<div class="section group">
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-code fa-3x icon-a"></i>
-    <h3>Web Development</h3>
-    <p>I code websites using HTML, CSS, Javascript, and Vue.js.</p>
-  </div>
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-desktop fa-3x icon-a"></i>
-    <h3>Web Design</h3>
-    <p class="text-muted">I leverage design principles to build modern and professional looking websites.</p>
-  </div>
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-chalkboard-teacher fa-3x icon-a"></i>
-    <h3>UX/UI Design</h3>
-    <p class="text-muted">I am interested in understanding the user experience and creating user interfaces.</p>
-  </div>
-  <div class="col span_1_of_4 text-center">
-    <i class="fas fa-pen fa-3x icon-a"></i>
-    <h3>Graphic Design</h3>
-    <p class="text-muted">I create illustrations with emphasis on branding and identity design.</p>
-  </div>
-</div>-->
 
-  <section id="work" class="work">
+<div class="container container--wrap">
+  <div class="hero__employer hero__employer--steelseries">
+    <h3 class="employer__label">Currently:</h3>
+      <a target="_blank" href="">
+        <img src="images/general_assembly.png" alt="">
+      </a>
+  </div>
+  <div class="hero__employer">
+    <h3 class="employer__label">Previously:</h3>
+      <a target="_blank" href="">
+        <img src="images/twif.png" alt="">
+      </a>
+    </div>
+  </div>
+
+
+
+ <section id="work" class="work">
     <div class="container">
       <h2 class="secondary-header">Project Highlights</h2>
     </div>
     <div class="featured-work-container">
-      <!--<a href="basketball-manual.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content7.PNG">
+      <a href="app-interface.html" class="work-link work-link--50">
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/site_content.jpg">
           <div class="work-link-content">
-            <h3 class="link-content__header">Basketball Manual</h3>
+            <h3 class="link-content__header">SteelSeries E-Commerce</h3>
           </div>
+        </div>
+      </a>
+      <!--<a href="" class="work-link work-link--50">
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content5.PNG">
         </div>
       </a>-->
-      <a href="app-interface.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content6.PNG">
-          <div class="work-link-content">
-            <h3 class="link-content__header">Photo & Video App</h3>
-          </div>
-        </div>
-      </a>
-      <a href="travel-app.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/Site-Content5.PNG">
-          <div class="work-link-content">
-            <h3 class="link-content__header">Travel App</h3>
-          </div>
-        </div>
-      </a>
     </div>
 
     <div class="container">
@@ -91,6 +77,10 @@
     </div>
     <div class="work-container">
       <ul class="work__list">
+        <li class="work__list-item">
+          <a target="_blank" class="work__list-item-link" href="https://www.generalassemb.ly/">
+            <h2 class="work-title">General Assembly</h2><span class="work-detail work-role">Design </span><span class="work-detail work-company">General Assembly </span><span class="work-detail work-date">2019</span></a>
+        </li>
         <li class="work__list-item">
           <a target="_blank" class="work__list-item-link" href="https://www.theworldisfun.org/">
             <h2 class="work-title">The World is Fun</h2><span class="work-detail work-role">Design </span><span class="work-detail work-company">The World is Fun </span><span class="work-detail work-date">2018</span></a>
@@ -107,25 +97,32 @@
           <a target="_blank" class="work__list-item-link" href="http://www.umass.edu/pwtc/">
             <h2 class="work-title">PWTC Certificate</h2><span class="work-detail work-role">Development, Design</span><span class="work-detail work-company">UMass Amherst </span><span class="work-detail work-date">2014</span></a>
         </li>
-        <li class="work__list-item">
-          <a target="_blank" class="work__list-item-link" href="https://www.umass.edu/itprogram/">
-            <h2 class="work-title">Information Technology Capstone</h2><span class="work-detail work-role">Design </span><span class="work-detail work-company">UMass Amherst </span><span class="work-detail work-date">2012</span></a>
       </ul>
     </div>
   </section>
 
   <footer id="contact" class="footer">
-    <div class="container">
-      <h2 class="secondary-header">Interested in doing business?</h2><a class="hero__link" href="mailto: vpangng@gmail.com">Click here.</a></div>
-    <div class="container">
+    
       <ul class="social-list">
-        <li class="social-list__item"><a href="https://github.com/vpangng1"><img src="images/icon_github.png"></a></li>
-        <li class="social-list__item"><a href="#"><img src="images/icon_linkedin.png"></a></li>
-        <li class="social-list__item"><a href="#"><img src="images/icon_instagram.png"></a></li>
-        <li class="social-list__item"><a href="mailto: vpangng@gmail.com"><img src="images/icon_mail.png"></a></li>
+        <li class="social-list__item">
+          <a href="https://github.com/destefanis" class="social-list__item-link">GitHub</a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/danielrd" class="social-list__item-link">LinkedIn</a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/_daniel.r.d/" class="social-list__item-link">Instagram</a>
+        </li>
+        <li class="social-list__item">
+          <a href="mailto: drdestefanis@gmail.com" class="social-list__item-link">Email</a>
+        </li>
       </ul>
-    </div>
+
+      <h7>© Copyright Victor Ng 2019</h7>
+
   </footer>
+
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
