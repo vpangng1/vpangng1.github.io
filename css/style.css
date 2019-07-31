@@ -37,7 +37,7 @@ ul {
 }
 
 img {
-  max-width: 100%
+
 }
 
 svg:not(:root) {
@@ -1008,6 +1008,7 @@ footer .social a:hover {
 } 
 
 /********** GLOBAL **********/
+
 .study {
   background-color: #fff;
 }
