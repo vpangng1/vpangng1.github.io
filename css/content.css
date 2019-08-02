@@ -332,85 +332,12 @@
   #hazel #testing .picset .three img:last-of-type {
     padding: 0 15px 0;
   }
-  /***** PREP *****/
-
-  #prep .hero .hero-right img {
-    max-width: 50vw;
-  }
-
-  #prep #problem {
-    margin-top: 0;
-  }
-
-  #prep #process .lrg-img {
-    margin-top: 50px;
-  }
-
-  #prep #process .lrg-img img {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-  }
-
-  #prep #process .lrg-img img:first-of-type {
-    max-width: 580px;
-    padding-bottom: 50px;
-  }
-
-  #prep #process .lrg-img img:last-of-type {
-    max-width: 380px;
-  }
-
-  #prep section.features .lrg-img-offset {
-    box-sizing: border-box;
-    padding: 50px;
-    top: 0;
-  }
-
-  #prep section.features .lrg-img-offset img.nomobile {
-    display: none;
-  }
-
-  #prep .features .lrg-img-offset img.nodesk {
-    display: initial;
-    width: 100%;
-    max-width: 620px;
-    height: auto;
-    padding-bottom: 10px;
-  }
-
-  #prep .features .lrg-img-offset img.nodesk:last-of-type {
-    padding-bottom: 0;
-  }
-
-  #prep #tracking .picset {
-    margin-top: 50px;
-  }
-
-  #prep #tracking .picset .two img {
-    box-sizing: border-box;
-    padding: 0 30px;
-  }
-
-  /******* LOHE *******/
-  #lohe #testing .picset .three img {
-    padding: 0 15px 30px;
-    box-sizing: border-box;
-  }
-
-  #lohe #testing .picset .three img:last-of-type {
-    padding-bottom: 0;
-  }
 
 }
 
 @media screen and (max-width: 768px) {
   .nomobile {
     display: none;
-  }
-
-  #hp-hero {
-      background-image: url(../assets/images/hp_background_mob.jpg);
   }
 
   #homepage .howzit {
@@ -522,78 +449,16 @@
     height: 110px;
   }
 
-  #prep .hero {
-    padding-top: 0;
+  .about p {
+    font-size: 19px;
   }
 
-  #lohe .hero .hero-left {
-    max-width: 100%;
+  .text-box {
+    margin: 0;
   }
 
-  #lohe .hero .hero-left img {
-    max-width: 160px;
-  }
-
-  #lohe .hero .hero-right {
-    padding-right: 0;
-  }
-
-  #lohe .hero .hero-right img {
-    max-width: 98vw;
-    margin: 250px auto 2vh;
-    text-align: center;
-  }
-
-  #lohe #wireframes .picset img {
-    width: 90%;
-    padding: 0 0 5%;
-  }
-
-  #prep .hero .hero-right {
-    padding-right: 0;
-  }
-
-  #prep .hero .hero-right img {
-    max-width: 90vw;
-    margin-top: 140px;
-  }
-
-  #prep #tracking .picset .two img {
-    box-sizing: border-box;
-    padding: 0 30px;
-  }
-
-  #prep #tracking .picset .two img:first-child {
-    padding-bottom: 30px;
-  }
-
-  #littleleague .hero .hero-left .logos {
-    justify-content: center;
-  }
-
-  #littleleague .hero .hero-left img {
-    max-width: 150px;
-    max-height: 50px;
-  }
-
-  #littleleague .hero .hero-right img {
-    max-width: 99vw;
-    height: auto;
-    margin: 160px auto 2vh;
-    text-align: center;
-  }
-
-  #littleleague #journeys .contentblock:last-of-type {
-    padding-bottom: 30px;
-  }
-
-  #littleleague #journeys .contentblock:last-of-type img {
-    height:35px;
-  }
-
-  #littleleague #branding img.lrg-img {
-    box-sizing: border-box;
-    padding: 0 30px;
+  #about img {
+    height: 200px;
   }
 
 }
@@ -618,26 +483,19 @@
     max-height: 55vh;
   }
 
-  #prep .hero {
-    padding-top: 0px;
-  }
-
   #hazel .hero .hero-right img {
     margin-top: 60px;
   }
 
-  #prep .hero .hero-right img {
-    max-width: 100vw;
-    overflow-x: hidden;
-    margin-top: 90px;
+  .about p {
+    font-size: 18px;
   }
 
-  #lohe .hero .hero-right img {
-    margin-top: 130px;
+  .text-box {
+    margin: 0;
   }
 
-  #littleleague .hero .hero-right img {
-    max-width: 95vw;
+  #about img {
+    height: 200px;
   }
-
 }
