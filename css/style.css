@@ -36,10 +36,6 @@ ul {
   box-sizing: border-box;
 }
 
-img {
-
-}
-
 svg:not(:root) {
   overflow: hidden
 }
@@ -768,7 +764,18 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   letter-spacing: -1px;
   font-size: 3.3rem;
   font-weight: 400;
+}
 
+.about p {
+  font-size: 20px;
+}
+
+.text-box {
+  margin: 0 200px 0 200px;
+}
+
+#about img {
+  height: 200px;
 }
 
 @media screen and (min-width:768px) {
@@ -1069,6 +1076,10 @@ footer .social a:hover {
 
 .mtop100 {
   margin-top: 100px;
+}
+
+.mtop50 {
+  margin-top: 50px;
 }
 
 .contentblock .role {
