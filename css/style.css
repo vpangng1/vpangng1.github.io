@@ -1190,6 +1190,7 @@ img.contentimg {
   margin: 0 auto;
   text-align: center;
   font-size: 0;
+  border: 1px;
 }
 
 img.lrg-img {
