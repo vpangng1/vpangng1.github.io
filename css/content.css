@@ -123,213 +123,33 @@
     padding: 0 15px;
   }
 
-
-  /* HOMEPAgE */
-  #hp-hero {
-      background-image: url(../assets/images/hp_background_mob.jpg);
-  }
-
-  #homepage .howzit {
-    padding: 40px 60px;
-    width: 70%;
-  }
-
-  #homepage #project-links {
-    position: inherit;
-  }
-
-  #project-links .tile {
-    display: block;
-  }
-
-  .project-box{
-    width: 90%;
-    float: none;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  .project-content .cell {
-    position: relative;
-  }
-
-  .project-box a {
-    color: #fff;
-  }
-
-  .project-icon{
-    width: 100%;
-    height: 260px;
-    text-align: center;
-    transition: all .5s ease;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .project-box .project-icon .front-content h4, .project-box .project-content h4 {
-    font-size:1.65rem ;
-    max-width: 100%;
-    width: fit-content;
-  }
-
-  .project-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 260px;
-  }
-
-  .project-content .cell {
-    position: relative;
-  }
-
-  .project-box .project-content p {
-    font-size: 1.125rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 55%;
-  }
-
-  .project-box .project-content img {
-    height: 36px;
-    padding: 0 6px;
-  }
-
-  .project-key {
-    display: block;
-    padding-top: 10px;
-  }
-
-  .project-key .keyterm {
-    display: block;
-    width: 90%;
-    text-align: center;
-    padding-top: 20px;
-    margin: 0 auto;
-  }
-
-  .project-key .keyterm h6.mini {
-    padding-left: 0;
-  }
-
-  /* ABOUT */
-  #about .hero {
-   display: block;
-   margin-top: 0;
-  }
-
-  #about .hero-left {
-    width: 100%;
-    height: 400px;
-    display: block;
-  }
-
-  #about .hero-left img {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #about .hero-right {
-    background: #000;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 70px 20px 0;
-    position: relative;
-  }
-
-  #about .hero-right .links {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  #about .hero-right .links a {
-    margin: 30px 0 0 0;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #about section.features, #about section.skillz {
-    padding: 100px 30px;
-  }
-
-  #about div.features, #about div.skillz {
-    flex-direction: column;
-    padding: 0;
-  }
-
-  #about div.features .feature, #about div.skillz .skill {
-    padding: 0 0 70px;
-    width: 100%;
-  }
-
-  #about div.features .feature:last-of-type, #about div.skillz .skill:last-of-type {
-    padding:0;
-  }
-
-  #about .contentblock .left {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-
-  #about .contentblock .left img {
-    width: 80px;
-  }
-
-  #about #bio {
-    padding-bottom: 0;
-  }
-
-  #about .avatar {
-    height: auto;
-  }
-
-  #about .avatar h5 {
-    width: 100%;
-    box-sizing: border-box;
-    left: 0;
-    bottom: 130px;
-    margin-bottom: -130px; /* bottom offset */
-    border-radius: 0;
-    padding: 160px 30px 30px;
-    display: block;
-    text-align: center;
-    max-width: inherit;
-    box-shadow: none;
-  }
-
-
-
-  /***** AETLAS *****/
-  #hazel .features .branding {
+/***** PUGET *****/
+  #puget .features .branding {
     max-width: 95%;
     text-align: center;
     margin: 0 auto;
   }
 
-  #hazel .tasks {
+  #puget .tasks {
     display: block;
     flex-wrap: nowrap;
   }
 
-  #hazel .tasks .screens {
+  #puget .tasks .screens {
     width: 100%;
   }
 
-  #hazel .tasks .screens img {
+  #puget .tasks .screens img {
     width: 30%;
     margin: 0;
   }
 
-  #hazel #testing .picset .three img {
+  #puget #testing .picset .three img {
     padding: 0 15px 50px;
     box-sizing: border-box;
   }
 
-  #hazel #testing .picset .three img:last-of-type {
+  #puget #testing .picset .three img:last-of-type {
     padding: 0 15px 0;
   }
 
@@ -428,24 +248,24 @@
     padding-bottom: 50px;
   }
 
-  #hazel .hero {
+  #puget .hero {
     padding-top: 0;
   }
 
-  #hazel .hero .hero-right img {
+  #puget .hero .hero-right img {
     margin-top: 100px;
     height: 60vh;
   }
 
-  #hazel #personas img.nomobile {
+  #puget #personas img.nomobile {
     display: none;
   }
 
-  #hazel #personas img.nodesk {
+  #puget #personas img.nodesk {
     display: initial;
   }
 
-  #hazel .features img {
+  #puget .features img {
     height: 110px;
   }
 
@@ -478,12 +298,12 @@
       margin-bottom: 80px;
   }
 
-  #hazel .hero .hero-right img {
+  #puget .hero .hero-right img {
     margin-top: 0;
     max-height: 55vh;
   }
 
-  #hazel .hero .hero-right img {
+  #puget .hero .hero-right img {
     margin-top: 60px;
   }
 

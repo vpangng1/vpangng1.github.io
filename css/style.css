@@ -86,7 +86,8 @@ body {
   width: 90%;
   max-width: 1400px;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
+
 }
 
 .container.container--vertically-center {
@@ -451,7 +452,6 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 .hero .container {
   position: relative;
   z-index: 10;
-  margin-top: 150px;
 }
 
 .hero__title {
@@ -462,7 +462,8 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   letter-spacing: -1px;
   line-height: 1.7;
   font-size: 3rem;
-  font-weight: 400
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width:768px) {
@@ -480,7 +481,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .hero__link--second {
-  color: #29c6b2;
+  color: #2fe0c5;
   transition: color .25s ease
 }
 
@@ -510,6 +511,17 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   transform: translateY(-2px);
   opacity: .9
 }
+
+.main .hero {
+  background-image: url("../images/hero_background_image.jpg");
+  background-size: cover;
+  padding: 270px 0px;
+  height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .ss-logo {
   fill: #5d5d5d
@@ -1270,7 +1282,7 @@ h6 {
 
 /****************** PAGES ********************/
 
-/***** Hazel *****/
+/***** HAZEL *****/
 #hazel .hero {
   background: url(../images/hazel_analytics_hero.jpg);
   background-size: cover;
@@ -1349,6 +1361,88 @@ a.button {
 .study .hero .hero-right img {
   height: 75vh;
 }
+
+/***** PUGET *****/
+
+#puget .hero {
+  background: url(../images/pstp_hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+  font-family: 'Libre Franklin', 'Arial', sans-serif;
+}
+
+.study .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.hero .hero-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+  height: 55vh;
+  position: relative;
+}
+
+.study .hero .hero-front {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.study .hero .hero-left {
+  position: relative;
+  z-index: 2;
+  width:100%;
+  max-width: 500px;
+  color: #fff;
+  padding: 100px 5%;
+  overflow-y: hidden;
+}
+
+.study .hero .hero-right {
+  z-index: 2;
+  padding-right: 5%;
+}
+
+#puget .hero h5 {
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 30px;
+
+}
+
+a.button {
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Libre Franklin', 'Arial', sans-serif;
+  }
+
+.study .hero .hero-left img {
+  width: 250px;
+}
+
+.study .hero .hero-right img {
+  height: 75vh;
+}
+
 
 /****************** NAVIGATION ********************/
 
