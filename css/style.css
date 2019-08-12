@@ -755,6 +755,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   }
 }
 
+
 .work {
   margin-top: 2em;
   padding: 4em 0;
@@ -1324,8 +1325,8 @@ h6 {
 .study .hero .hero-left {
   position: relative;
   z-index: 2;
-  width:100%;
-  max-width: 500px;
+  width:650px;
+  max-width: 1000px;
   color: #fff;
   padding: 100px 5%;
   overflow-y: hidden;
@@ -1375,47 +1376,7 @@ a.button {
   font-family: 'Libre Franklin', 'Arial', sans-serif;
 }
 
-.study .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
-  overflow-y: hidden;
-}
 
-.hero .hero-back {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  z-index: 1;
-  background-color: rgba(0,0,0,.8);
-  width: 100%;
-  height: 55vh;
-  position: relative;
-}
-
-.study .hero .hero-front {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
-}
-
-.study .hero .hero-left {
-  position: relative;
-  z-index: 2;
-  width:100%;
-  max-width: 500px;
-  color: #fff;
-  padding: 100px 5%;
-  overflow-y: hidden;
-}
-
-.study .hero .hero-right {
-  z-index: 2;
-  padding-right: 5%;
-}
 
 #puget .hero h5 {
   padding-top: 30px;
@@ -1436,13 +1397,7 @@ a.button {
     font-family: 'Libre Franklin', 'Arial', sans-serif;
   }
 
-.study .hero .hero-left img {
-  width: 250px;
-}
 
-.study .hero .hero-right img {
-  height: 75vh;
-}
 
 
 /****************** NAVIGATION ********************/
