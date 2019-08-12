@@ -513,7 +513,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 }
 
 .main .hero {
-  background-image: url("../images/hero_background_image.jpg");
+  background-image: url("../images/hero_background_image.png");
   background-size: cover;
   padding: 270px 0px;
   height: 900px;
@@ -1284,7 +1284,7 @@ h6 {
 
 /***** HAZEL *****/
 #hazel .hero {
-  background: url(../images/hazel_analytics_hero.png);
+  background: url(../images/hazel_analytics_hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
