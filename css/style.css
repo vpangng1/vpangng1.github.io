@@ -36,6 +36,7 @@ ul {
   box-sizing: border-box;
 }
 
+
 svg:not(:root) {
   overflow: hidden
 }
