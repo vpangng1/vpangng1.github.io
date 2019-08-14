@@ -84,18 +84,6 @@
     padding-bottom: 50px;
   }
 
-  .contentblock .swot-logos {
-    flex-direction: column;
-  }
-
-  .contentblock .swot-logos img {
-    padding-bottom: 50px;
-  }
-
-  .contentblock .swot-logos img:last-child, div.features .feature:last-of-type {
-    padding-bottom: 0;
-  }
-
   .solution .contentblock {
     padding: 50px 40px;
   }
@@ -123,35 +111,7 @@
     padding: 0 15px;
   }
 
-/***** PUGET *****/
-  #puget .features .branding {
-    max-width: 95%;
-    text-align: center;
-    margin: 0 auto;
-  }
 
-  #puget .tasks {
-    display: block;
-    flex-wrap: nowrap;
-  }
-
-  #puget .tasks .screens {
-    width: 100%;
-  }
-
-  #puget .tasks .screens img {
-    width: 30%;
-    margin: 0;
-  }
-
-  #puget #testing .picset .three img {
-    padding: 0 15px 50px;
-    box-sizing: border-box;
-  }
-
-  #puget #testing .picset .three img:last-of-type {
-    padding: 0 15px 0;
-  }
 
 }
 
