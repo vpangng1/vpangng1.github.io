@@ -410,7 +410,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   }
 }
 
-.project-button {
+/*.project-button {
   display: block;
   margin-top: 2em;
   color: #3cdab4;
@@ -420,6 +420,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 .project-button:hover {
   color: #5d5d5d
 }
+*/
 
 .step-content {
   padding: 2em 0 1em;
@@ -459,7 +460,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   position: relative;
   max-width: 840px;
   margin-top: .5em;
-  margin-bottom: 1.5em;
+  /*margin-bottom: 1.5em;*/
   letter-spacing: -1px;
   line-height: 1.7;
   font-size: 3rem;
@@ -467,10 +468,17 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   color: #FFFFFF;
 }
 
+.hero__button {
+  width: 90%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width:768px) {
   .hero__title {
     margin-top: 1.25em;
-    margin-bottom: 2.5em;
+    /*margin-bottom: 2.5em;*/
     line-height: 68px;
     font-size: 3.8rem
   }
@@ -1231,6 +1239,13 @@ a.button {
     font-family: 'Libre Franklin', 'Arial', sans-serif;
   }
 
+a.button:hover {
+  border: 1px solid #2fe0c5;
+  color: #2fe0c5;
+  font-weight: 300;
+  transition: .25s;
+}
+
 .study .hero .hero-left img {
   width: 250px;
 }
@@ -1258,6 +1273,8 @@ a.button1:hover{
   color:white;
   background-color:black;
 }
+
+*/
 
 p {
   font-family: 'Libre Franklin', 'Arial', san-serif;
@@ -1422,7 +1439,7 @@ nav .right a {
 }
 
 nav a:hover {
-  color: #00D3FF;
+  color: #2fe0c5;
   transition: .25s ease;
 }
 
