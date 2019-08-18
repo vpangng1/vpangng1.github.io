@@ -766,14 +766,18 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 
 
 .work {
-  margin-top: 2em;
+  /*margin-top: 2em;*/
   padding: 4em 0;
   background: #fbfbfb;
 }
 
+.about {
+  padding: 4em 0;
+}
+
 @media screen and (min-width:768px) {
   .work {
-    margin-top: 4em;
+    /*margin-top: 4em;*/
     padding: 8em 0
   }
 }
@@ -798,6 +802,10 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 
 #about img {
   height: 200px;
+}
+
+.about {
+  padding: 8em 0;
 }
 
 @media screen and (min-width:768px) {
@@ -1255,23 +1263,22 @@ a.button:hover {
 }
 
 a.button1{
-  display:inline-block;
-  padding:0.35em 1.2em;
-  border:1px solid black;
-  margin:1em 0.3em 0.3em 0;
-  border-radius:0.12em;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
-  font-weight:300;
-  color:black;
-  text-align:center;
-  transition: all 0.2s;
+    padding: 5px 30px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 30px 0;
+    display: inline-block;
+    font-size: 19px;
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Libre Franklin', 'Arial', sans-serif;
 }
 
 a.button1:hover{
-  color:white;
-  background-color:black;
+  border: 1px solid #2fe0c5;
+  color: #2fe0c5;
+  font-weight: 300;
+  transition: .25s;
 }
 
 */
