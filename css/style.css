@@ -1117,8 +1117,8 @@ footer .social a:hover {
   margin-top: 50px;
 }
 
-.mtop20 {
-  margin-top: 20px;
+.mtop30 {
+  margin-top: 30px;
 }
 
 .contentblock .role {
@@ -1425,8 +1425,6 @@ p {
 
 
 
-
-
 /***** RELIEF *****/
 
 #relief .hero {
@@ -1439,6 +1437,21 @@ p {
   font-family: 'Libre Franklin', 'Arial', sans-serif;
 }
 
+
+
+
+
+/***** WEATHER APP *****/
+
+#weather .hero {
+  background: url(../images/weather_app_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+  font-family: 'Libre Franklin', 'Arial', sans-serif;
+}
 
 /****************** NAVIGATION ********************/
 
