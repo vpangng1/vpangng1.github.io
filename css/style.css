@@ -459,9 +459,25 @@ footer .social a:hover {
 
 }
 
-.contentblock .left h3 {
-  font-size: 17px;
+#hazel .contentblock .left h3 {
+  font-size: 18px;
   color: #29c6b2;
+  letter-spacing: .5px;
+  font-weight: 700;
+
+}
+
+#puget .contentblock .left h3 {
+  font-size: 18px;
+  color: #008297;
+  letter-spacing: .5px;
+  font-weight: 700;
+
+}
+
+#relief .contentblock .left h3 {
+  font-size: 18px;
+  color: #6c7075;
   letter-spacing: .5px;
   font-weight: 700;
 
