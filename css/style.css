@@ -253,13 +253,13 @@ body {
   .featured-work-container {
     padding-bottom: 8em;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
   }
 }
 
 .work-link {
   display: inline-block;
-  /*padding: 15px;*/
+  padding: 10px;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
 }
