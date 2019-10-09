@@ -954,10 +954,29 @@ nav a:hover {
 
 /********** TESTIMONIAL **********/
 
-.testimonial .text-box {
-  margin: 0 auto;
-  width: 650px;
+.greenback {
+  background-color: #00a599;
 }
+
+#testimonial .right .quote {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#testimonial .right .quote-source {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#testimonial .contentblock {
+  padding: 75px 0;
+}
+
 
 /********** VIDEO **********/
 
