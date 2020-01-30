@@ -850,19 +850,6 @@ ul {
 
 
 
-
-/***** MENTORZ APP *****/
-
-#mentor .hero {
-  background: url(../images/mentorz.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  box-sizing: border-box;
-  padding-top: 60px;
-  font-family: 'Libre Franklin', 'Arial', sans-serif;
-}
-
 /***** PINK GORILLA APP *****/
 
 #pink .hero {
