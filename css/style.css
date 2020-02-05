@@ -286,7 +286,7 @@ body {
 
 .work-link-wrapper:hover {
   /*opacity:0.5;*/
-  transform: translateY(-2px);
+  /*transform: translateY(-2px);*/
   /*box-shadow: 0 8px 14px rgba(93, 93, 93, .1);*/
 }
 
