@@ -483,6 +483,14 @@ footer .social a:hover {
 
 }
 
+#pink .contentblock .left h3 {
+  font-size: 19px;
+  color: #FF69B4;
+  letter-spacing: .5px;
+  font-weight: 700;
+
+}
+
 .contentblock .right a {
   color: #008297;
   font-weight: 700;
@@ -720,6 +728,15 @@ a.button:hover {
   height: 75vh;
 }
 
+#pink .hero .hero-left img {
+  max-width: 400px;
+}
+
+#pink .hero .hero-right img {
+  height: auto;
+  max-width: 60vw;
+}
+
 a.button1{
     padding: 5px 30px;
     border: 1px solid #000000;
@@ -853,7 +870,7 @@ ul {
 /***** PINK GORILLA APP *****/
 
 #pink .hero {
-  background: url(../images/pink_gorilla.png);
+  background: url(../images/pink_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
