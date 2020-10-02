@@ -483,6 +483,14 @@ footer .social a:hover {
 
 }
 
+#mentor .contentblock .left h3 {
+  font-size: 19px;
+  color: red;
+  letter-spacing: .5px;
+  font-weight: 700;
+
+}
+
 #pink .contentblock .left h3 {
   font-size: 19px;
   color: #FF69B4;
@@ -871,6 +879,21 @@ ul {
 
 #pink .hero {
   background: url(../images/pink_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+  font-family: 'Libre Franklin', 'Arial', sans-serif;
+}
+
+
+
+
+/***** MENTORZ APP *****/
+
+#mentor .hero {
+  background: url(../images/mentorz_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
