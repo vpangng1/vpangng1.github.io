@@ -907,7 +907,7 @@ ul {
 /***** QUUE APP *****/
 
 #quue .hero {
-  background: url(../images/quue.png);
+  background: url(../images/quue_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
