@@ -921,7 +921,7 @@ ul {
 /***** HUNGERSWIPE APP *****/
 
 #hungerswipe .hero {
-  background: url(../images/.png);
+  background: url(../images/hungerswipe_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
