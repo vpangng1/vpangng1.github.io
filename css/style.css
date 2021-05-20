@@ -736,6 +736,10 @@ a.button:hover {
   height: 75vh;
 }
 
+#hungerswipe .hero .hero-right img {
+  height: 60vh;
+}
+
 #pink .hero .hero-left img {
   max-width: 400px;
 }
