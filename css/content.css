@@ -241,6 +241,21 @@
     height: 200px;
   }
 
+  #hungerswipe .hero .hero-right img {
+    margin-top: 60px;
+    height: 60vh;
+  }
+
+  #hazel .hero .hero-right img {
+    margin-top: 50px;
+    height: 60vh;
+  }
+
+  #relief .hero .hero-right img {
+    margin-top: 50px;
+    height: 60vh;
+  }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -259,11 +274,7 @@
   }
 
   #puget .hero .hero-right img {
-    margin-top: 0;
     max-height: 55vh;
-  }
-
-  #puget .hero .hero-right img {
     margin-top: 60px;
   }
 
@@ -278,4 +289,66 @@
   #about img {
     height: 200px;
   }
+
+  #hungerswipe .hero .hero-right img {
+    margin-top: 60px;
+    height: 45vh;
+  }
+
+  #hazel .hero .hero-right img {
+    margin-top: 50px;
+    height: 50vh;
+  }
+
+  #relief .hero .hero-right img {
+    margin-top: 50px;
+    height: 50vh;
+  }
 }
+
+@media screen and (max-width: 1366px) {
+
+  .study .hero .hero-right {
+    height: 60vh;
+  }
+
+  .study .hero .hero-left {
+    height: 40vh;
+  }
+
+  #homepage .howzit {
+      margin-top: 100px;
+      margin-bottom: 80px;
+  }
+
+  #puget .hero .hero-right img {
+    max-height: 55vh;
+    margin-top: 60px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .text-box {
+    margin: 0;
+  }
+
+  #about img {
+    height: 200px;
+  }
+
+  #hungerswipe .hero .hero-right img {
+    margin-top: 60px;
+    height: 50vh;
+  }
+
+  #hazel .hero .hero-right img {
+    height: 65vh;
+  }
+
+  #relief .hero .hero-right img {
+    height: 60vh;
+  }
+}
+

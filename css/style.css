@@ -483,14 +483,6 @@ footer .social a:hover {
 
 }
 
-#mentor .contentblock .left h3 {
-  font-size: 19px;
-  color: red;
-  letter-spacing: .5px;
-  font-weight: 700;
-
-}
-
 #hungerswipe .contentblock .left h3 {
   font-size: 19px;
   color: #FF69B4;
@@ -876,7 +868,7 @@ ul {
 /***** PUGET *****/
 
 #puget .hero {
-  background: url(../images/pstp_hero.jpg);
+  background: url(../images/pstp_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -915,34 +907,6 @@ ul {
   font-family: 'Libre Franklin', 'Arial', sans-serif;
 }
 
-
-
-
-/***** MENTORZ APP *****/
-
-#mentor .hero {
-  background: url(../images/mentorz_hero.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  box-sizing: border-box;
-  padding-top: 60px;
-  font-family: 'Libre Franklin', 'Arial', sans-serif;
-}
-
-
-
-/***** QUUE APP *****/
-
-#quue .hero {
-  background: url(../images/quue_hero.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  box-sizing: border-box;
-  padding-top: 60px;
-  font-family: 'Libre Franklin', 'Arial', sans-serif;
-}
 
 
 
@@ -1072,12 +1036,5 @@ nav a:hover {
 /********** VIDEO **********/
 
 video {
-  max-width: 95;
-  height: 600px;
-}
-
-.md-video {
-  text-align: center;
-  max-width: 95;
-  height: 600px;
+  max-width: 95%;
 }
