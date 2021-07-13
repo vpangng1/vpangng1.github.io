@@ -208,14 +208,6 @@
     padding-bottom: 50px;
   }
 
-  #puget .hero {
-    padding-top: 0;
-  }
-
-  #puget .hero .hero-right img {
-    margin-top: 100px;
-    height: 60vh;
-  }
 
   #puget #personas img.nomobile {
     display: none;
@@ -241,21 +233,6 @@
     height: 200px;
   }
 
-  #hungerswipe .hero .hero-right img {
-    margin-top: 60px;
-    height: 60vh;
-  }
-
-  #hazel .hero .hero-right img {
-    margin-top: 50px;
-    height: 60vh;
-  }
-
-  #relief .hero .hero-right img {
-    margin-top: 50px;
-    height: 60vh;
-  }
-
 }
 
 @media screen and (max-width: 560px) {
@@ -273,11 +250,6 @@
       margin-bottom: 80px;
   }
 
-  #puget .hero .hero-right img {
-    max-height: 55vh;
-    margin-top: 60px;
-  }
-
   .about p {
     font-size: 16px;
   }
@@ -290,20 +262,6 @@
     height: 200px;
   }
 
-  #hungerswipe .hero .hero-right img {
-    margin-top: 60px;
-    height: 45vh;
-  }
-
-  #hazel .hero .hero-right img {
-    margin-top: 50px;
-    height: 50vh;
-  }
-
-  #relief .hero .hero-right img {
-    margin-top: 50px;
-    height: 50vh;
-  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -321,11 +279,6 @@
       margin-bottom: 80px;
   }
 
-  #puget .hero .hero-right img {
-    max-height: 55vh;
-    margin-top: 60px;
-  }
-
   .about p {
     font-size: 16px;
   }
@@ -344,11 +297,18 @@
   }
 
   #hazel .hero .hero-right img {
-    height: 65vh;
+    margin-top: 40px;
+    height: 55vh;
   }
 
   #relief .hero .hero-right img {
-    height: 60vh;
+    margin-top: 40px;
+    height: 55vh;
+  }
+  
+  #puget .hero .hero-right img {
+    margin-top: 40px;
+    height: 55vh;
   }
 }
 
