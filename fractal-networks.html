@@ -66,13 +66,13 @@
       </div>
       <div class="right">
         <p>
-          Fractal Link is a computer product that allows users to safely publish websites, services, and applications from their personal computer using Docker. It is designed to be an alternative to cloud services and third-party providers that host and data mine people's data. As the designer for this role, <b>I was brought on to create visual assets and the UI for the website</b>.
+          Fractal Link is a computer application that allows users to safely publish websites, services, and applications from their personal computer. It does this by utilizing another application called <b>Docker</b> which "containerizes" applications to make them easier to create, deploy, and share with others. As the designer for the team, <b>I was brought on to create visual assets and the UI for the website</b>.
         </p>
+      <div class="lrg-img">
+        <img class="mtop100" src="images/fractal_docker.png" alt="">
+      </div>
       </div>
     </div>
-      <div class="lrg-img">
-        <img class="" src="images/" alt="">
-      </div>
   </section>
 
 
@@ -83,15 +83,32 @@
       </div>
       <div class="right">
         <p>
-          Using existing research that my team previously conducted, I was able to craft two different peronas which represent our model users. Our first model user, <b>Chris, is someone who wants to do self-hosting but is unsure where to start</b>. The other user, <b>Greg, is someone who has experience self-hosting and wants to be able to share and self host easier</b>.
+          Our research team discovered from interviews and internet sources that the target audience are <b>users who have varying levels of self-hosting and Docker experience but do not know where to start</b>. In addition, based on survey results, our team identified four primary reasons users want to self-host.
         </p>
+      <div class="md-img">
+        <img class="mtop100" src="images/fractal_insights.png" alt="">
+      </div>
+    </div>
+</section>
+
+
+ <section id="overview" class="maincontent">
+  <div class="contentblock">
+      <div class="left">
+        <h5>Persona Development</h5>
+      </div>
+      <div class="right">
+        <p>
+          Using existing research that my team previously conducted, our team was able to craft two different peronas which represent our model users. Our first model user, <b>Chris, is someone who wants to do self-hosting but is unsure where to start</b>. The other user, <b>Greg, is an experienced user who wants self-host easier</b>.
+        </p>
+    </div>
+  </div>
       <div class="md-img">
         <img class="mtop100" src="images/fractal_persona_chris.png" alt="">
       </div>
       <div class="md-img">
         <img class="mtop50" src="images/fractal_persona_greg.png" alt="">
       </div>
-    </div>
 </section>
 
 
@@ -125,7 +142,7 @@
       </div>
       <div class="right">
         <p>
-          Early concept sketches were done in Balsamiq for convenience. From looking at other competitor sites, we discovered that <b>most of them had some demo or feature on the landing page</b> that allowed users to get a feel of the product. <b>We decided to base our design around this using a feature called the configurator</b> that took in information from the user. This would generate a file where the user would then copy and paste the file into their own docker file.
+          Early concept sketches were done in Balsamiq for convenience. From looking at other competitor sites, we discovered that most of them had a <b>call-to-action feature on the landing page</b> that allowed users to get a feel of the product. We decided to <b>base our design around this using a feature called the configurator</b> that requested certain information from the user such as domain name, service name and port. This would generate a piece of code inside the configurator where the user would then <b>copy and paste it into their own Docker file</b>.
         </p>
        <div class="md-img">
         <img class="mtop100" src="images/fractal_balsamiq.png" alt="">
@@ -142,10 +159,10 @@
       </div>
       <div class="right">
         <p>
-          Our team conducted testings on the team's staging website with two advanced users and two new users. I created a script to help guide me through the testing and recorded their responses using voice recording software on my mobile device. At the end of the test I also conducted a SUS Survey to calculate the usability score.
+          Our team conducted testings on the team's staging website with two advanced users and two new users. I created a script to help guide me through the testing and recorded their responses using voice recording software on my mobile device. At the end of the test <b>I also conducted a SUS Survey to calculate the usability score</b>.
         </p>
-        <div class="md-img">
-          <img class="mtop50" src="images/relief_survey.png" alt="">
+        <div class="sm-img">
+          <img class="mtop50" src="images/fractal_survey.png" alt="">
         </div>
         <br>
         <br>
@@ -154,9 +171,9 @@
         </p>
         <br>-->
         <p>
-          <b>Findings:</b> Both new users expressed confusion with regard to the configurator and had trouble figuring out where to find the information it was requesting for. Advanced users understood how to use the configurator but wanted to know what additional features were available. In addition, they stated it would be useful if they could get a live demo or preview.
+          <b>Findings:</b> Both new users expressed confusion with regard to the configurator and had trouble figuring out where to find the information it was requesting for. Advanced users understood how to use the configurator but wanted to see a live demo of a working application.
         </p>
-        <div class="md-img">
+        <div class="sm-img">
           <img class="mtop50" src="images/fractal_sus.PNG" alt="">
         </div>
       </div>
@@ -183,7 +200,7 @@
       </div>
       <div class="right">
         <p>
-          In the next iteration, the configurator was completely overhauled so that all <b>users had to do was copy the code that was already on the screen and paste it in their docker file</b>. When the visitor came to the site, the configurator would automatically generate a code using information from the visitor's computer browser. This code was different for every visitor that went to the site and <b>eliminated the need for user input</b>.
+          In the next iteration, the configurator was completely overhauled so that all users had to do was copy the code that was already on the screen and paste it in their Docker file. When the visitor came to the site, the <b>configurator would automatically generate a code using information from the visitor's computer browser</b>. This code was different for every visitor that went to the site and <b>eliminated the need for user input</b>.
         </p> 
         <div class="md-img">
           <img class="mtop50" src="images/fractal_landing.PNG" alt="">
@@ -200,7 +217,7 @@
       </div>
       <div class="right">
         <p>
-          To address concerns for a live preview, our design team <b>added demos of programs like Minecraft and WordPress on the landing page</b>. This worked similarly to the configurator where the user copied the file to their own docker file, but an instance of the program which was already configured would be available when the user launched the docker application.
+          To address concerns for a live preview, our design team added <b>working demos of applications on the landing page</b>. This worked similarly to the configurator where the user copied the code to their own Docker file, but an instance of the program which was already configured would be available when the user launched the Docker application.
         </p> 
         <div class="md-img">
           <img class="mtop50" src="images/fractal_landing2.PNG" alt="">
@@ -217,11 +234,11 @@
       </div>
       <div class="right">
         <p>
-           The second round of testing was done on the team's staging site based on the Adobe XD's sketches. Our team interviewed five users with different levels of docker experience. At the end of the test I also conducted a SUS Survey to calculate the usability score.
+           The second round of testing was done on the team's staging site based on the Adobe XD's sketches. Our team interviewed five users with different levels of Docker experience. At the end of the test I also conducted a SUS Survey to calculate the usability score.
         </p>
         <br>
         <p>
-          <b>Findings:</b> While three out of our five users had little difficulty with using the configurator or demo, inexperienced users still found the overall process of copying and pasting the file on their computer somewhat difficult and confusing. Users also wished that there was clear cut instructions on how to use the configurator and install apps.       
+          <b>Findings:</b> While three out of our five users had little difficulty with using the configurator or demo, inexperienced users still found the overall process of copying and pasting the code into their Docker file somewhat difficult and confusing. Users also wished that there was clear cut instructions on how to use the configurator and install apps.       
         </p>
       <div class="md-img">
         <img class="mtop50" src="images/fractal_sus2.png" alt="">
@@ -237,7 +254,7 @@
       </div>
       <div class="right">
         <p>
-          The goal for the next iteration was to <b>simplify the process of installing application by eliminating steps for new users while preserving the traditional method for advanced users</b>.
+          The goal for the next iteration was to <b>simplify the process of installing application by eliminating steps for new users</b> while preserving the traditional method for advanced users.
         </p>  
       </div>
     </div>
@@ -250,7 +267,7 @@
       </div>
       <div class="right">
         <p>
-          In the next iteration, the <b>configurator was scrapped in favor of a packaged install file</b>. When the user opened the download file, the program would install the app as well as docker if it wasn't already installed. Advanced users could still install apps using the command line interface and a <b>page for users who preferred to install apps this way was provided</b>.
+          In the next iteration, the <b>configurator on the landing page was replaced with a packaged install file</b>. When the user opened the file, the program would install the app as well as Docker if not already installed. <b>Users could also visit the page for each respective app and either install them through the command line interface or configurator method</b>.
         </p> 
         <div class="md-img">
           <img class="mtop50" src="images/fractal_landing3.PNG" alt="">
@@ -258,20 +275,6 @@
         <div class="md-img">
           <img class="mtop50" src="images/fractal_landing5.PNG" alt="">
         </div>
-      </div>
-    </div>
-  </section>
-
-
-    <section id="overview" class="maincontent">
-    <div class="contentblock">
-      <div class="left">
-        <h3>App Catalog</h3>
-      </div>
-      <div class="right">
-        <p>
-           Users had the <b>option to download one of the apps from the landing page or to browse from the app catalog</b>. This was not only done to make things simpler for users to install apps, but to also create a sense of familiarity.   
-        </p> 
         <div class="md-img">
           <img class="mtop50" src="images/fractal_landing4.PNG" alt="">
         </div>
@@ -291,7 +294,7 @@
         </p>
         <br>
         <p>
-          <b>Findings:</b> Users who were new or had little to no experience with docker greatly enjoyed the app catalog and thought installing docker and/or apps intuitive. Experienced users preferred doing things through the command line interface but welcomed the alternative way to install apps.     
+          <b>Findings:</b> Users who were new or had little to no experience with Docker greatly enjoyed installing apps through the install file method and thought the process was intuitive. Advanced users preferred doing things through the command line interface or configurator way but welcomed the alternative way to install apps.     
         </p>
       <div class="md-img">
         <img class="mtop50" src="images/fractal_sus3.png" alt="">
