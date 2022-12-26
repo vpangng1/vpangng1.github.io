@@ -499,6 +499,14 @@ footer .social a:hover {
 
 }
 
+#mediboard .contentblock .left h3 {
+  font-size: 19px;
+  color: #868686;
+  letter-spacing: .5px;
+  font-weight: 700;
+
+}
+
 .contentblock .right a {
   color: #008297;
   font-weight: 700;
@@ -943,6 +951,18 @@ ul {
   font-family: 'Libre Franklin', 'Arial', sans-serif;
 }
 
+
+/***** MEDIBOARD APP *****/
+
+#mediboard .hero {
+  background: url(../images/mediboard_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 60px;
+  font-family: 'Libre Franklin', 'Arial', sans-serif;
+}
 
 /****************** NAVIGATION ********************/
 
