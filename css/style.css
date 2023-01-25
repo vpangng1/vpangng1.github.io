@@ -531,21 +531,30 @@ footer .social a:hover {
   margin-top: 100px;
 }
 
-.mtop50 {
-  margin-top: 50px;
+.mtop70 {
+  margin-top: 70px;
 }
 
-.mbot50 {
-  margin-bottom: 50px;
+.mtop50 {
+  margin-top: 50px;
 }
 
 .mtop30 {
   margin-top: 30px;
 }
 
+.mbot100 {
+  margin-bottom: 100px;
+}
+
+.mbot50 {
+  margin-bottom: 50px;
+}
+
 .mbot30 {
   margin-bottom: 30px;
 }
+
 
 .contentblock .role {
   text-align: center;
