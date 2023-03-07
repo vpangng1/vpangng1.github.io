@@ -10,119 +10,113 @@
   <link rel="shortcut icon" href="images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/content.css">
-  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
-
-<div class="navigation">
-    <nav>
-      <div class="left">
-        <a href="index.html">
-                  Victor Ng
-            <span class="nomobile"> | UX Designer</span>
-        </a>
-      </div>
-      <div class="right">
-        <a data-scroll href="#work">portfolio</a>
-        <a data-scroll href="#about">about</a>
-      </div>
-    </nav>
-  </div>
-
 <body class="main">
-
+  <nav class="nav">
+    <div class="container container--vertically-center">
+      <div class="nav__brand"><a href="index.html"><img src="images/Personal-Logo.png"></a></div>
+      <ul
+        class="nav__list">
+        <li class="nav__list-item"><a data-scroll href="#work">Work</a></li>
+        <li class="nav__list-item"><a data-scroll href="about.html">About</a></li>
+        </ul>
+    </div>
+  </nav>
   <section class="hero">
     <div class="container">
-      <h1 class="hero__title animated fadeInLeft delay-1s">I’m Victor Ng, a <a class="hero__Link hero__link--second">designer</a> from Seattle, solving problems through design and collaboration.</h1>
+      <h1 class="hero__title">I’m Victor Ng, a <a class="hero__Link hero__link--second"> designer</a> from Seattle, solving problems through design and collaboration.
     </div>
-    <div class="hero__button">
-    <a data-scroll href="#about" class="button animated fadeInLeft delay-2s">Learn More</a>
-  </div>
   </section>
 
 
- <section id="work" class="work">
+  <section id="work" class="work">
     <div class="container">
-      <h2 class="secondary-header">Portfolio</h2>
+      <h2 class="secondary-header">Project Highlights</h2>
     </div>
     <div class="featured-work-container">
-      <a href="app-interface.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/food_safety_app.png" onmouseover="this.src='images/food_safety_app_hover.png'" onmouseout="this.src='images/food_safety_app.png'">
+      <a href="hazel-analytics.html" class="work-link work-link--50">
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/hazel/hazel_project.png">
+          <!--<div class="work-link-content">
+            <h3 class="link-content__header">Hazel Analytics</h3>
+          </div>-->
         </div>
       </a>
       <a href="puget-sound.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/pstp.png" onmouseover="this.src='images/pstp_hover.png'" onmouseout="this.src='images/pstp.png'">
-        </div>
-      </a>
-      <!--<a href="relief-link.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/relief_hero.png" onmouseover="this.src='images/relief_hero_hover.png'" onmouseout="this.src='images/relief_hero.png'">
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/puget/puget_project.png">
+          <!--<div class="work-link-content">
+            <h3 class="link-content__header">Puget Sound Trip Planner</h3>
+          </div>-->
         </div>
       </a>
       <a href="hungerswipe.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/hungerswipe.png" onmouseover="this.src='images/hungerswipe_hover.png'" onmouseout="this.src='images/hungerswipe.png'">
-        </div>-->
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/hungerswipe/hungerswipe_project.png">
+          <!--<div class="work-link-content">
+            <h3 class="link-content__header">HungerSwipe</h3>
+          </div>-->
+        </div>
       </a>
-      <a href="fractal-networks.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/fractal.png" onmouseover="this.src='images/fractal_hover.png'" onmouseout="this.src='images/fractal.png'">
+      <a href="fractal-link.html" class="work-link work-link--50">
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/fractal/fractal_project.png">
+          <!--<div class="work-link-content">
+            <h3 class="link-content__header">Fractal Link</h3>
+          </div>-->
         </div>
       </a>
       <a href="mediboard.html" class="work-link work-link--50">
-        <div class="work-link-wrapper"><img class="work-link-image" src="images/mediboard.png" onmouseover="this.src='images/mediboard_hover.png'" onmouseout="this.src='images/mediboard.png'">
+        <div class="work-link-wrapper"><img class="work-link-image" src="images/mediboard/mediboard_project.png">
+          <!--<div class="work-link-content">
+            <h3 class="link-content__header">MediBoard</h3>
+          </div>-->
         </div>
       </a>
+    </div>
 
-      </div>
-  </section>
-
-  <section id="about" class="about">
     <div class="container">
-      <h2 class="secondary-header">About</h2>
-        <div class="text-box">
-          <div class="text-center">
-              <img src="images/profile_pic.png" alt="avatar">
-          </div>
-          
-              <p class="mtop50">
-               I'm a designer who is interested in building products that are sustainable, intuitive, and impactful. I believe user-centered design should be the forefront of any product. Growing up I developed an affinity for the arts, but never thought I'd do anything useful with it. I eventually got into a career in IT where I learned to deliver exceptional support and solutions to customers.
-               <p class="mtop50"> 
-               That's when it occurred to me that many of the things we did were UX related, whether we realized it or not. An entire discipline that combined user behavior and design to create meaningful experiences and products was something I decided was worth pursuing. I'm an outdoorsman who enjoys hiking and traveling. In my spare time I also like to read, exercise, cook, and eat great food. I believe the experiences we accumulate throughout our life provides us with fresh perspectives that can lend itself to design.
-              </p>
-              <br>
-
-              <div class="text-center mtop50">
-                <a href="images/victorng_resume.pdf" class="button1" target="_blank"><i class="fa fa-download"></i> Resume</a>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <footer id="contact" class="footer">
-    
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a href="https://github.com/vpangng1" class="social-list__item-link" target="_blank">GitHub</a>
+      <h2 class="secondary-header">Work Experience</h2>
+    </div>
+    <div class="work-container">
+      <ul class="work__list">
+        <li class="work__list-item">
+          <a target="_blank" class="work__list-item-link">
+            <h2 class="work-title">MediBoard</h2><span class="work-detail work-role">Design Lead</span><span class="work-detail work-company">Seattle </span><span class="work-detail work-date">2022</span></a>
         </li>
-        <li class="social-list__item">
-          <a href="https://www.linkedin.com/in/victorpng" class="social-list__item-link" target="_blank">LinkedIn</a>
+        <li class="work__list-item">
+          <a target="_blank" class="work__list-item-link">
+            <h2 class="work-title">Fractal Networks</h2><span class="work-detail work-role">UX/UI Designer</span><span class="work-detail work-company">Remote</span><span class="work-detail work-date">2021</span></a>
         </li>
-        <li class="social-list__item">
-          <a href="mailto:vpangng@gmail.com" class="social-list__item-link"> Email</a>
+        <li class="work__list-item">
+          <a target="_blank" class="work__list-item-link">
+            <h2 class="work-title">HungerSwipe</h2><span class="work-detail work-role">UI/Visual Designer </span><span class="work-detail work-company">Remote</span><span class="work-detail work-date">2020</span></a>
         </li>
-        <li class="social-list__item">
-          <a href="https://www.behance.net/victorng3" class="social-list__item-link" target="_blank"> Behance</a>
+        <li class="work__list-item">
+          <a target="_blank" class="work__list-item-link">
+            <h2 class="work-title">Mentorz</h2><span class="work-detail work-role">Visual UX Designer</span><span class="work-detail work-company">Seattle </span><span class="work-detail work-date">2019</span></a>
+        </li>
+        <li class="work__list-item">
+          <a target="_blank" class="work__list-item-link">
+            <h2 class="work-title">The World is Fun</h2><span class="work-detail work-role">Graphic Designer </span><span class="work-detail work-company">Seattle</span><span class="work-detail work-date">2018</span></a>
         </li>
       </ul>
+    </div>
+  </section>
 
-
-      <h7>© Copyright Victor Ng 2023</h7>
-
+<footer id="contact" class="footer">
+  <div class="container">
+    <h2 class="secondary-header">Interested in doing business?</h2><a class="hero__link" href="mailto: vpangng@gmail.com">Click here.</a></div>
+      <div class="container">
+        <ul class="social-list">
+          <li class="social-list__item"><a href="https://github.com/vpangng1" class="social-list__item-link">GitHub</a></li>
+          <li class="social-list__item"><a href="https://www.linkedin.com/in/victorpng" class="social-list__item-link" target="_blank">LinkedIn</a></li>
+          <li class="social-list__item"><a href="#" class="social-list__item-link">Instagram</a></li>
+          <li class="social-list__item"><a href="images/victorng_resume.pdf" class="social-list__item-link">Resume</a></li>
+        </ul>
+      </div>
   </footer>
-
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.1.0/js/smooth-scroll.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
